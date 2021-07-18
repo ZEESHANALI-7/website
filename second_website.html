@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Mate+SC&display=swap" rel="stylesheet">
+</head>
+<style>
+    html {
+        font-size: 10px;
+    }
+
+    body {
+        background-color: rgb(10, 10, 10);
+        color: white;
+    }
+
+    body:hover {
+        cursor: pointer;
+    }
+
+    .navbar li {
+        list-style: none;
+        text-align: center;
+       
+    }
+
+    .container .navbar {
+        display: flex;
+        /* border: 2px solid black; */
+        border-radius: 15px;
+        justify-content: space-evenly;
+
+    }
+
+    .navbar li a {
+
+        font-size: 2rem;
+        text-decoration: none;
+        color: rgb(255, 255, 255);
+        position: sticky;
+
+    }
+    
+
+    /* .navbar li a {
+        transition: all;
+    } */
+
+    .navbar li a:hover {
+        font-size: 2.5rem;
+        text-decoration: underline;
+        color: rgb(166, 167, 167);
+        transform: rotate(45deg);
+
+    }
+   
+
+    .navbar::before {
+        content: "";
+        background: url('https://wallpapercave.com/wp/Dq6o3uI.jpg') no-repeat center center/cover;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 30rem;
+        z-index: -1;
+        opacity: 0.4;
+
+    }
+
+    .image {
+        margin: 5.3rem;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+    }
+
+    .categories {
+        margin-top: 11rem;
+        display: flex;
+        justify-content: center;
+        font-size: 1.5rem;
+    }
+
+    .one::before {
+        content: "";
+        background: url('https://th.bing.com/th/id/R78ad6f26a1f96742ac99b2b1993af7fa?rik=cw44zFKp5f%2fHIw&riu=http%3a%2f%2fcdn.nanalyze.com%2fuploads%2f2017%2f06%2fGrocery-Technology-Teaser.jpg&ehk=d%2bi2%2bQYUQ2lAYP%2bS1nAHQbhvfXQXiLC0eyDjgxZ6yKA%3d&risl=&pid=ImgRaw') no-repeat center center/cover;
+        position: absolute;
+        left: 0;
+        width: 100%;
+        height: 25rem;
+        z-index: -1;
+        opacity: 0.3;
+    }
+
+    .groc {
+        display: flex;
+        height: 25rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 3rem;
+    }
+
+    .groc:hover {
+        color: rgb(103, 120, 130);
+    }
+
+    .space1 {
+        margin-top: 3rem;
+    }
+
+    .two::before {
+        content: "";
+        background: url('https://www.theriaults.com/sites/default/files/lot_images/cat-1134_041_0.jpg') no-repeat center center/cover;
+        position: absolute;
+        left: 0;
+        height: 25rem;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.3;
+    }
+
+    .acces {
+        display: flex;
+        height: 25rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 3rem;
+    }
+
+    .acces:hover {
+        color: rgb(103, 120, 130);
+    }
+
+    .space2 {
+        margin-top: 3rem;
+    }
+
+    .three::before {
+        content: "";
+        background: url('https://www.technik-profis.de/magazin/wp-content/uploads/2015/10/wearables_1500.jpg') no-repeat center center/cover;
+        position: absolute;
+        left: 0;
+        height: 25rem;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.3;
+    }
+
+    .wear {
+        display: flex;
+        height: 25rem;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        font-size: 3rem;
+    }
+
+    .wear:hover {
+        color: rgb(103, 120, 130);
+    }
+
+    .form {
+        margin-top: 3rem;
+        display: flex;
+
+        justify-content: center;
+    }
+
+    .textarea {
+        display: flex;
+        justify-content: center;
+    }
+
+    img::before{
+        content: "";
+        background: url("blue.jpg")no-repeat center center/cover;
+        position: absolute;
+        left: 0;
+        height: 38rem;
+        width: 100%;
+        z-index: -1;
+        opacity: 0.3;
+    }
+    .enquiry{
+        font-size: 1.5rem;
+        color:white;
+        background: url('https://cdn.wallpapersafari.com/1/67/srtFq8.jpg');
+        height: 38rem;
+        width: 100%;
+        
+    }
+    
+    .lower{
+
+        text-align: center;
+        font-size: 2rem;
+        font-family: 'Mate SC', serif;
+    }
+</style>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <li> <a href="">Home </a> </li>
+            <li> <a href="">Blogs </a> </li>
+            <li> <a href="">About us </a> </li>
+            <li> <a href="">Contact us </a> </li>
+        </div>
+        <div class="image">
+            <h1>Welcome to my website</h1>
+
+        </div>
+    </div>
+    <div class="categories">
+        <h1>CATEGORIES</h1>
+    </div>
+    <div class="first">
+        <div class="one">
+            <div class="groc">
+                <p>Groceries</p>
+            </div>
+        </div>
+    </div>
+    <div class="space1">
+        <h1></h1>
+    </div>
+    <div class="second">
+        <div class="two">
+            <div class="acces">
+                <p>Accessories</p>
+            </div>
+        </div>
+    </div>
+    <div class="space2">
+        <h1></h1>
+    </div>
+    <div class="third">
+        <div class="three">
+            <div class="wear">
+                <p>Wearables</p>
+            </div>
+        </div>
+    </div>
+    <div class="enquiry">
+        
+        <div class="img">
+
+            <div class="form">
+                <form action="#">
+                    <p>Enter your Name :</p> <input type="text" name="enter your name">
+                    <p>Enter your Phone no :</p> <input type="number" name="enter your name">
+                    <p>Enter your Email :</p> <input type="email" name="enter your name">
+                </form>
+            </div>
+            <br>
+            <div class="textarea">
+                <p>Write your queries :</p>
+                <textarea name="write" id="" cols="30" rows="8"></textarea>
+            </div>
+        </div>
+    </div>
+    <div class="lower">
+        <p>Thanks for visiting our website ☺️</p>
+    </div>
+</body>
+
+</html>
